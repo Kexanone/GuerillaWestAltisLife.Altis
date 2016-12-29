@@ -1,4 +1,5 @@
 ![Logo](https://github.com/oOKexOo/GuerillaWestAltisLife.Altis/blob/master/Textures/GWAL.png)
+(Your cosy starting base near Gori)
 
 ####Description
 This mission is not to be confused with Altis Life RPG by Tonic. Honestly, I don't like such RPG missions much. 

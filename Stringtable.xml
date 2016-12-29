@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Guerilla Life">
+	<Package name="Guerilla West Altis Life">
+	
+	
+		<Container name="Factions">
+		
+			<Key ID="STR_ENEMY_ABBREV">
+				<Original>AAF</Original>
+				<English>AAF</English>
+			</Key>
+			<Key ID="STR_ENEMY_SPECOP_ABBREV">
+				<Original>ACIF</Original>
+				<English>ACIF</English>
+			</Key>
+		</Container>
+		
+		
+		<Container name="Advanced Hint">
+			
+			<Key ID="STR_MANUAL_TITLE">
+				<Original>Guerilla Survival Guide</Original>
+				<English>Guerilla Survival Guide</English>
+			</Key>
+			<Key ID="STR_MANUAL">
+				<Original>There are essential informations for you in the %3Guerilla Survival Guide%4.%1You can access it in the %3Escape Menu%4 under %3Field Manual%4 > %3Mission%4 </Original>
+				<English>There are essential informations for you in the %3Guerilla Survival Guide%4.%1You can access it in the %3Escape Menu%4 under %3Field Manual%4 > %3Mission%4</English>
+			</Key>
+		
+			<Key ID="STR_DYNAMIC_GROUPS_TITLE">
+				<Original>Dynamic Groups</Original>
+				<English>Dynamic Groups</English>
+			</Key>
+			<Key ID="STR_DYNAMIC_GROUPS">
+				<Original>Join or create your own group, invite other players and form your own squad.%1%2Press %11 to open/close the Dynamic Groups interface.</Original>
+				<English>Join or create your own group, invite other players and form your own squad.%1%2Press %11 to open/close the Dynamic Groups interface.</English>
+			</Key>
+			<Key ID="STR_DYNAMIC_GROUPS_TIP">
+				<Original>Form muliple smaller groups in order to achieve more flexibility that is needed for successful Guerilla Warfare.</Original>
+				<English>Form muliple smaller groups in order to achieve more flexibility that is needed for successful Guerilla Warfare.</English>
+			</Key>
+			
+			<Key ID="STR_CHECKPOINTS_TITLE">
+				<Original>AAF Checkpoints</Original>
+				<English>AAF Checkpoints</English>
+			</Key>
+			<Key ID="STR_CHECKPOINTS">
+				<Original>Follow these rules:%1%1%2Do only pass checkpoints with %3Wanted Level%4 0.%1%2You can be arrested for carrying weapons and ammunition.%1%2Move to the bar gate and wait for instructions.%1%2Do not disembark or drive until you are free to go!%1</Original>
+				<English>Follow these rules:%1%1%2Do only pass checkpoints with %3Wanted Level%4 0.%1%2You can be arrested for carrying weapons and ammunition.%1%2Move to the bar gate and wait for instructions.%1%2Do not disembark or drive until you are free to go!%1</English>
+			</Key>
+			<Key ID="STR_CHECKPOINTS_TIP">
+				<Original>AAF has become paranoid during the civil war. They won't hesitate to kill civilians if they don't follow their instructions.</Original>
+				<English>AAF has become paranoid during the civil war. They won't hesitate to kill civilians if they don't follow their instructions.</English>
+			</Key>
+			
+			<Key ID="STR_CIVILIANS_TITLE">
+				<Original>Talking to Civilians</Original>
+				<English>Talking to Civilians</English>
+			</Key>
+			<Key ID="STR_CIVILIANS">
+				<Original>You can interact with civilians with the %3Action Menu%4.%1Talking to locals is a crucial part of this game mod:%1%1%2Get information about the %3location%4, enemy movements and many more.%1%2Convince civilians about your purpose to gain %3support%4.%1%2Solve quests to gain %3support%4.%1</Original>
+				<English>You can interact with civilians with the %3Action Menu%4.%1Talking to locals is a crucial part of this game mod:%1%1%2Get information about the %3location%4, enemy movements and many more.%1%2Convince civilians about your purpose to gain %3support%4.%1%2Solve quests to gain %3support%4.%1</English>
+			</Key>
+			<Key ID="STR_CIVILIANS_TIP">
+				<Original>Civilians can have a certain attitude depending on your answers. Although, do not always trust them.</Original>
+				<English>Civilians can have a certain attitude depending on your answers. Although, do not always trust them.</English>
+			</Key>
+			
+			<Key ID="STR_OUTPOSTS_TITLE">
+				<Original>Outposts</Original>
+				<English>Outposts</English>
+			</Key>
+			<Key ID="STR_OUTPOSTS">
+				<Original>You can interact with civilians with the %3Action Menu%4.%1Talking to locals is a crucial part of this game mod:%1%1%2Get information about the %3location%4, enemy movements and many more.%1%2Convince civilians about your purpose to gain %3support%4.%1%2Solve quests to gain %3support%4.%1</Original>
+				<English>You can interact with civilians with the %3Action Menu%4.%1Talking to locals is a crucial part of this game mod:%1%1%2Get information about the %3location%4, enemy movements and many more.%1%2Convince civilians about your purpose to gain %3support%4.%1%2Solve quests to gain %3support%4.%1</English>
+			</Key>
+			<Key ID="STR_OUTPOSTS_TIP">
+				<Original>Civilians can have a certain attitude depending on your answers. Although, do not always trust them.</Original>
+				<English>Civilians can have a certain attitude depending on your answers. Although, do not always trust them.</English>
+			</Key>
+			
+			<Key ID="STR_WANTED_TITLE">
+				<Original>Wanted Level</Original>
+				<English>Wanted Level</English>
+			</Key>
+			<Key ID="STR_WANTED">
+				<Original>%3Wanted Level%4 is a system that defines how AAF will treat you:%1%1%2Level 0 (Civilian): AAF is friendly to you except in %3restricted areas%4.%1%2Level 1 (Wanted): AAF is always hostile to you.%1%2Level 2 (Most Wanted): %3ACIF%4 will hunt you down as soon as you are spotted.%1%1%3Wanted Level%4 depends on your clothes and actions:%1%1%2Level 0: Wear civilian clothes with no visible weapon and no vest.%1%2Level 1: If you do not have the appropriate clothes for Level 0.%1%2Level 2: You led severe attacks against AAF.</Original>
+				<English>%3Wanted Level%4 is a system that defines how AAF will treat you:%1%1%2Level 0 (Civilian): AAF is friendly to you except in %3restricted areas%4.%1%2Level 1 (Wanted): AAF is always hostile to you.%1%2Level 2 (Most Wanted): %3ACIF%4 will hunt you down as soon as you are spotted.%1%1%3Wanted Level%4 depends on your clothes and actions:%1%1%2Level 0: Wear civilian clothes with no visible weapon and no vest.%1%2Level 1: If you do not have the appropriate clothes for Level 0.%1%2Level 2: You led severe attacks against AAF.</English>
+			</Key>
+			<Key ID="STR_WANTED_TIP">
+				<Original>You can decrease your wanted level by changing your outfit completely. Keep in mind that AAF can remember you, therefore it is recommended to cover your face. Your wanted level is reset after respawn.</Original>
+				<English>You can decrease your wanted level by changing your outfit completely. Keep in mind that AAF can remember you, therefore it is recommended to cover your face. Your wanted level is reset after respawn.</English>
+			</Key>
+			
+			<Key ID="STR_ACIF_TITLE">
+				<Original>ACIF</Original>
+				<English>ACIF</English>
+			</Key>
+			<Key ID="STR_ACIF">
+				<Original>%3ACIF%4 stands for %3A%4ltis %3C%4ounter-%3I%4nsurgency %3F%4orces. They are a %3SpecOp%4 organization that is feared for their determination. If you encounter %3ACIF%4 units, it is wise to escape the location and attack a different location.%1%1AAF can send in %3ACIF%4 for counter attacks. However, they will always be sent in immediately if a player with %3Wanted Level%4 3 is spotted. In such cases %3ACIF%4 will try to hunt down the specific player.</Original>
+				<English>%3ACIF%4 stands for %3A%4ltis %3C%4ounter-%3I%4nsurgency %3F%4orces. They are a %3SpecOp%4 organization that is feared for their determination. If you encounter %3ACIF%4 units, it is wise to escape the location and attack a different location.%1%1AAF can send in %3ACIF%4 for counter attacks. However, they will always be sent in immediately if a player with %3Wanted Level%4 3 is spotted. In such cases %3ACIF%4 will try to hunt down the specific player.</English>
+			</Key>
+			
+		</Container>
+		
+		
+		<Container name="Civilian Interaction">
+		
+			<Key ID="str_myTag_another_key">
+				<Original></Original>
+			</Key>
+			<Key ID="str_myTag_formatted">
+				<Original>Hello, %1.</Original>
+			</Key>
+			<Key ID="str_myTag_structured">
+				<Original>Some text &lt;t color='%1'&gt;%2&lt;/t&gt;</Original>
+			</Key>
+		</Container>
+		
+	</Package>
+</Project>

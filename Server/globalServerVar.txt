@@ -1,0 +1,23 @@
+//////////////////////////////////////////////////////////////////////////
+// AUTHOR: Kex
+// DATE: 1/4/15
+// VERSION: 1.0
+// FILE: Server\globalServerVar.txt
+// DESCRIPTION: List of all global server variables and functions
+//////////////////////////////////////////////////////////////////////////
+
+permanent_objects
+task_locations
+outpost_locations
+hideout_locations
+structure_locations
+recon_locations
+checkpoint_locations
+medic_locations
+garage_locations
+shop_locations
+civ_locations
+
+KEX_fnc_all_unknown_locations
+KEX_fnc_all_civ_locations
+KEX_fnc_all_players;

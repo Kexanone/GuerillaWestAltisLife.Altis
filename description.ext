@@ -1,0 +1,115 @@
+//////////////////////////////////////////////////////
+// Mission Loading Window
+//////////////////////////////////////////////////////
+
+class Header
+{
+	gameType = COOP;
+	minPlayers = 1;
+	maxPlayers = 30;
+};
+
+author="Kex";
+overviewText = "Experience guerilla warefare!";
+overviewTextLocked = "jjj";
+overviewPicture = "Textures\GWAL.paa";
+OnLoadName = "Guerilla Altis Life";
+OnLoadMission = "Survive, adapt and free West Altis!";
+loadScreen = "Textures\GWAL2.paa";
+
+
+saving = 0;
+
+
+//////////////////////////////////////////////////////
+// Respawn Settings
+//////////////////////////////////////////////////////
+
+respawn = 3;
+respawnDelay = 1;
+respawnVehicleDelay = 60;
+respawnDialog = 0;
+respawnOnStart = 0;
+
+enableDebugConsole = 1;
+respawnTemplatesWest[] = {"Tickets","EndMission"};
+
+aikills = 0;
+disabledAI = 1;
+
+//////////////////////////////////////////////////////
+// Resouce Titles
+//////////////////////////////////////////////////////
+
+/*
+#include "dialogs\define.hpp"
+#include "dialogs\UnconsciousMenu.h"
+#include "dialogs\AF_tablet_screen.h"
+*/
+
+//////////////////////////////////////////////////////
+// Custom config files
+//////////////////////////////////////////////////////
+
+// Advanced Hint Manual
+
+class CfgHints
+{
+	class GuerillaLife
+	{
+		displayName = "Guerillia Life Manual";
+		class FieldManual
+		{
+			displayName = "$STR_Manual_TITLE";
+			image = "\a3\ui_f\data\gui\cfg\hints\Miss_icon_ca.paa";
+			description = "$STR_Manual";
+			tip = " ";
+		};
+		class DynamicGroup
+		{
+			image = "\a3\ui_f\data\gui\cfg\hints\Commanding_ca.paa";
+			displayName = "$STR_DYNAMIC_GROUPS_TITLE";
+			description = "$STR_DYNAMIC_GROUPS";
+			tip = "$STR_DYNAMIC_GROUPS_TIP";
+			arguments[] = 
+			{
+				{{"teamSwitch"}}
+			};
+		};
+		class Wanted
+		{
+			displayName = "$STR_WANTED_TITLE";
+			image = "\a3\ui_f\data\gui\cfg\hints\Annoucning_ca.paa";
+			description = "$STR_WANTED";
+			tip = "$STR_WANTED_TIP";
+		};
+		class ACIF
+		{
+			displayName = "$STR_ACIF_TITLE";
+			image = "\a3\data_f_mark\logos\arma3_mark_icon_hint_ca.paa";
+			description = "$STR_ACIF";
+			tip = " ";
+		};
+		class Civilian
+		{
+			displayName = "$STR_CIVILIANS_TITLE";
+			image = "\a3\ui_f\data\gui\cfg\hints\Chat_ca.paa";
+			description = "$STR_CIVILIANS";
+			tip = "$STR_CIVILIANS_TIP";
+		};
+		class Checkpoint
+		{
+			displayName = "$STR_CHECKPOINTS_TITLE";
+			image = "\a3\ui_f\data\gui\cfg\hints\Rules_ca.paa";
+			description = "$STR_CHECKPOINTS";
+			tip = "$STR_CHECKPOINTS_TIP";
+		};
+		class Outpost
+		{
+			displayName = "$STR_OUTPOSTS_TITLE";
+			image = "\a3\ui_f\data\gui\cfg\hints\Miss_icon_ca.paa";
+			description = "$STR_OUTPOSTS";
+			tip = "$STR_OUTPOSTS_TIP";
+		};
+	};
+};

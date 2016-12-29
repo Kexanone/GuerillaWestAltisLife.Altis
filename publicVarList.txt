@@ -1,0 +1,10 @@
+//////////////////////////////////////////////////////////////////////////
+// AUTHOR: Kex
+// DATE: 1/4/15
+// VERSION: 1.0
+// FILE: publicVarList.txt
+// DESCRIPTION: List of all public variables
+//////////////////////////////////////////////////////////////////////////
+
+KEX_var_player_ready		¦ Tells server when player started intro scene
+KEX_var_simulated_list		¦ List of Objects whose simulation have to be enabled/disabled

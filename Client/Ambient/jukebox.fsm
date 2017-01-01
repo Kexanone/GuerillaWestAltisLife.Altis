@@ -1,11 +1,11 @@
-/*%FSM<COMPILE "C:\BIS\FSMEditor\scriptedFSM.cfg, JukeBox">*/
+/*%FSM<COMPILE "E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FSMEditor\scriptedFSM.cfg, JukeBox">*/
 /*%FSM<HEAD>*/
 /*
-item0[] = {"Start",0,250,-40.000000,-280.000000,50.000000,-230.000000,0.000000,"Start"};
+item0[] = {"Start",0,250,-34.964417,-277.482208,55.035583,-227.482208,0.000000,"Start"};
 item1[] = {"_",8,218,-40.000000,-70.000000,50.000000,-20.000000,0.000000,""};
-item2[] = {"Daytime_",2,250,-40.000000,0.000000,50.000000,50.000000,0.000000,"Daytime?"};
+item2[] = {"Daytime_",2,4346,-40.000000,0.000000,50.000000,50.000000,0.000000,"Daytime?"};
 item3[] = {"Track_selection",2,250,-150.000000,140.000000,-60.000000,190.000000,0.000000,"Track" \n "selection"};
-item4[] = {"The_sound_of_sil",1,250,-40.000000,420.000000,50.000000,470.000000,0.000000,"The sound" \n "of silence"};
+item4[] = {"The_sound_of_sil",2,250,-40.000000,420.000000,50.000015,470.000000,0.000000,"The sound" \n "of silence"};
 item5[] = {"Dead",4,218,-40.000000,350.000000,50.000000,400.000000,5.000000,"Dead"};
 item6[] = {"Music_finished",4,218,-150.000000,210.000000,-60.000000,260.000000,0.000000,"Music" \n "finished"};
 item7[] = {"Day",4,218,-150.000000,70.000000,-60.000000,120.000000,0.000000,"Day"};
@@ -14,7 +14,7 @@ item9[] = {"",7,210,-109.000000,21.000000,-101.000000,29.000000,0.000000,""};
 item10[] = {"",7,210,111.000000,21.000000,119.000000,29.000000,0.000000,""};
 item11[] = {"",7,210,-219.000000,371.000000,-211.000000,379.000000,0.000000,""};
 item12[] = {"Track_selection_1",2,250,70.000000,140.000000,160.000000,190.000000,0.000000,"Track" \n "selection"};
-item13[] = {"Music_finished",4,4314,70.000000,210.000000,160.000000,260.000000,0.000000,"Music" \n "finished"};
+item13[] = {"Music_finished",4,218,70.000000,210.000000,160.000000,260.000000,0.000000,"Music" \n "finished"};
 item14[] = {"Set_timer",2,250,70.000000,280.000000,160.000000,330.000000,0.000000,"Set timer"};
 item15[] = {"",7,210,-219.000000,-119.000000,-211.000000,-111.000000,0.000000,""};
 item16[] = {"",7,210,221.000000,-119.000008,229.000000,-111.000000,0.000000,""};
@@ -26,6 +26,8 @@ item21[] = {"",7,210,1.000000,161.000000,9.000000,169.000000,0.000000,""};
 item22[] = {"",7,210,1.000000,301.000000,9.000000,309.000000,0.000000,""};
 item23[] = {"Timeout",4,218,70.000000,350.000000,160.000000,400.000000,0.000000,"Timeout"};
 item24[] = {"",7,210,221.000000,371.000000,229.000000,379.000000,0.000000,""};
+item25[] = {"Respawn",4,218,261.061768,420.250000,351.061768,470.250000,5.000000,"Respawn"};
+item26[] = {"A_new_start",2,250,259.602722,-209.907104,349.602722,-159.907104,0.000000,"A new start"};
 link0[] = {0,17};
 link1[] = {1,2};
 link2[] = {2,9};
@@ -33,31 +35,34 @@ link3[] = {2,10};
 link4[] = {2,21};
 link5[] = {3,6};
 link6[] = {3,21};
-link7[] = {5,4};
-link8[] = {6,19};
-link9[] = {7,3};
-link10[] = {8,12};
-link11[] = {9,7};
-link12[] = {10,8};
-link13[] = {11,15};
-link14[] = {12,13};
-link15[] = {12,21};
-link16[] = {13,14};
-link17[] = {14,22};
-link18[] = {14,23};
-link19[] = {15,18};
-link20[] = {16,18};
-link21[] = {17,18};
-link22[] = {18,1};
-link23[] = {19,20};
-link24[] = {19,22};
-link25[] = {20,11};
-link26[] = {21,22};
-link27[] = {22,5};
-link28[] = {23,24};
-link29[] = {24,16};
-globals[] = {10.000000,1,0,0,0,640,480,1,47,6316128,1,-580.858093,593.271667,494.238373,-367.960907,1404,1031,1};
-window[] = {2,-1,-1,-1,-1,785,25,1465,25,3,1422};
+link7[] = {4,25};
+link8[] = {5,4};
+link9[] = {6,19};
+link10[] = {7,3};
+link11[] = {8,12};
+link12[] = {9,7};
+link13[] = {10,8};
+link14[] = {11,15};
+link15[] = {12,13};
+link16[] = {12,21};
+link17[] = {13,14};
+link18[] = {14,22};
+link19[] = {14,23};
+link20[] = {15,18};
+link21[] = {16,18};
+link22[] = {17,18};
+link23[] = {18,1};
+link24[] = {19,20};
+link25[] = {19,22};
+link26[] = {20,11};
+link27[] = {21,22};
+link28[] = {22,5};
+link29[] = {23,24};
+link30[] = {24,16};
+link31[] = {25,26};
+link32[] = {26,17};
+globals[] = {0.000000,0,0,0,0,640,480,1,50,6316128,1,-548.239075,625.890503,548.039063,-193.869873,1399,884,1};
+window[] = {2,-1,-1,-1,-1,864,104,1544,104,3,1417};
 *//*%FSM</HEAD>*/
 class FSM
 {
@@ -79,23 +84,21 @@ class FSM
                          "_t = time;" \n
                          "" \n
                          "BIS_DayMusic = " \n
-                         "" \n
-                         "	[" \n
-                         "		""AmbientTrack01_F""," \n
-                         "		""LeadTrack01a_F_EPB""," \n
-                         "		""LeadTrack02a_F_EPB""," \n
-                         "		""LeadTrack03_F_EPB""" \n
-                         "	];" \n
+                         "[" \n
+                         "	""AmbientTrack01_F""," \n
+                         "	""LeadTrack01a_F_EPB""," \n
+                         "	""LeadTrack02a_F_EPB""," \n
+                         "	""LeadTrack03_F_EPB""" \n
+                         "];" \n
                          "" \n
                          "BIS_NightMusic = " \n
-                         "" \n
-                         "	[" \n
-                         "		""AmbientTrack04a_F""," \n
-                         "		""LeadTrack04_F""," \n
-                         "		""SkyNet""," \n
-                         "		""Wasteland""" \n
-                         "	];" \n
-                         ""/*%FSM</STATEINIT""">*/;
+                         "[" \n
+                         "	""AmbientTrack04a_F""," \n
+                         "	""LeadTrack04_F""," \n
+                         "	""SkyNet""," \n
+                         "	""Defcon""," \n
+                         "	""Wasteland""" \n
+                         "];"/*%FSM</STATEINIT""">*/;
                         precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
                         class Links
                         {
@@ -131,8 +134,7 @@ class FSM
                          "	{" \n
                          "		BIS_Night = true;" \n
                          "		BIS_Day = false" \n
-                         "	};" \n
-                         ""/*%FSM</STATEINIT""">*/;
+                         "	};"/*%FSM</STATEINIT""">*/;
                         precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
                         class Links
                         {
@@ -236,6 +238,18 @@ class FSM
                         precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
                         class Links
                         {
+                                /*%FSM<LINK "Respawn">*/
+                                class Respawn
+                                {
+                                        itemno = 25;
+                                        priority = 5.000000;
+                                        to="A_new_start";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"alive player" \n
+                                         ""/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
                         };
                 };
                 /*%FSM</STATE>*/
@@ -309,11 +323,12 @@ class FSM
                          "If (count BIS_NightMusic == 0) Then" \n
                          "" \n
                          "	 {" \n
-                         "		BIS_NightMusic = " \n
+                         "	BIS_NightMusic = " \n
                          "	[" \n
                          "		""AmbientTrack04a_F""," \n
                          "		""LeadTrack04_F""," \n
                          "		""SkyNet""," \n
+                         "		""Defcon""," \n
                          "		""Wasteland""" \n
                          "	];" \n
                          "		BIS_NightMusic = BIS_NightMusic - BIS_NoRepeat;" \n
@@ -431,11 +446,34 @@ class FSM
                         };
                 };
                 /*%FSM</STATE>*/
+                /*%FSM<STATE "A_new_start">*/
+                class A_new_start
+                {
+                        name = "A_new_start";
+                        itemno = 26;
+                        init = /*%FSM<STATEINIT""">*/"_t = time;"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Timeout">*/
+                                class Timeout
+                                {
+                                        itemno = 17;
+                                        priority = 0.000000;
+                                        to="Nothing";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"time > ( _t + 15)" \n
+                                         ""/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
         };
         initState="Start";
         finalStates[] =
         {
-                "The_sound_of_sil",
         };
 };
 /*%FSM</COMPILE>*/

@@ -38,6 +38,9 @@ call compile preprocessFileLineNumbers 'Common\Functions\player_actions.sqf';
 	} forEach _to_disable;
 };
 
+//music handling
+addMusicEventHandler ["MusicStop",{[] execFSM "Client\Ambient\jukebox.fsm"}];
+
 // onEachFrame executions
 ["uniqueID", "onEachFrame", 
 {
